@@ -49,6 +49,7 @@ GEM
     parslet (1.5.0)
       blankslate (~> 2.0)
     posix-spawn (0.3.11)
+    puma (3.7.1)
     pygments.rb (0.6.3)
       posix-spawn (~> 0.3.6)
       yajl-ruby (~> 1.2.0)
@@ -71,4 +72,8 @@ PLATFORMS
 DEPENDENCIES
   jekyll
   json
+  puma
   rack
+
+BUNDLED WITH
+   1.14.5
